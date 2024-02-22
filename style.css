@@ -1,6 +1,36 @@
-#container{
-    border: none;
-  border-right: 2px;
-  border-radius: 2px 5px 10px 45px;
-
+#form{
+    width: 75%;
+    margin: 0 auto;
+    padding: 12 px;
+  }
+  .input{
+    padding: 8px 12px;
+    border:-radius 5px ;
+    border: 1px solid;
+  }
+  button{
+    padding: 4px 240px;
+    background-color: black;
+    color: w #form{
+        width: 75%;
+        margin: 0 auto;
+        padding: 12 px;
+      }
+      .input{
+        padding: 8px 12px;
+        border:-radius 5px ;
+        border: 1px solid;
+      }
+      button{
+        padding: 4px 240px;
+        background-color: black;
+        color: white;
+        border-radius: 5;
+      border: black;hite;
+    border-radius: 5;
+  border: black;
+  }
+image{
+    flex: content;
+    
 }
