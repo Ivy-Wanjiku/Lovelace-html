@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <form> 
-    Already have an account?<a href="/Lovelace-html/index.html">Sign in</a>
+  <form action="tables.html">  
+    Already have an account?<a href="/index.html">Sign in</a>
     <h2>Sign Up</h2>
     <br>
     <div>
     <label for =full name> Name :</label>
     <br>
     <br>
-    <input name ="full name" placeholder ="Sodegh">
+    <input name ="full name" placeholder ="Sodegh" required>
     <br>
     <br>
   </div>
@@ -23,7 +23,7 @@
     <label for ="email">Email :</label>
     <br>
     <br>
-    <input name ="email" placeholder="Sadeqsaadi2@gmail.com">
+    <input name ="email" placeholder="Sadeqsaadi2@gmail.com" required>
     <br>
     <br>
   </div>
@@ -31,21 +31,23 @@
     <label for ="password"> Password</label>
     <br>
     <br>
-    <input name ="password"placeholder ="XAxis566@">
+    <input name ="password"placeholder ="XAxis566@" required>
     <br>
     <br>
   </div>
-    <input type = "checkbox"> I've Read And Agree With <b>The Terms Of Service</b> And Our <b>Privacy Policy</b>
-    <br>
-    <br>
-    <div>
-    <button type="Sign Up">Sign Up</button>
-    <br>
-    <br>
-    </div>
-    <div>
-    <img src="https://icons.iconarchive.com/icons/pictogrammers/material/128/google-icon.png" alt="Google" width="60px">
-    <img src="https://icons.iconarchive.com/icons/arturo-wibawa/akar/128/facebook-icon.png" alt="facebook" width="50px">
+  <div>
+    <input  id = "checkbox" required type="checkbox"> I've Read And Agree With <b>The Terms Of Service</b> And Our <b>Privacy <br>Policy</b>
+  </div>
+<button type ="Sign In" class="sign">Sign In</button>
+<div class="line-container">
+    <hr class="line">
+    <span class="text">Or Sign In With</span>
+    <hr class="line">
+  </div>
+<div class="icons">
+<img src="media/google.png" alt="Google"> 
+<img src="media/facebook.png" alt ="facebook" >
+</div>
   </div>
   </form>  
 </body>

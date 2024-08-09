@@ -7,36 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="form2">
-        Don't have an account? <a href="/Lovelace-html/Tables .html">Sign up</a>
+    <form id="main" action="tables.html">
+        Don't have an account? <a href="/form.html">Sign up</a>
         <br>
-            <h2>Sign In</h2>
+            <h1>Sign In</h1>
             <br>
             <label for = email> Email:</label> 
             <br>
             <br>
-            <input name =email placeholder="Sadeqsaadi2@gmail.com">
+            <input name =email placeholder="Sadeqsaadi2@gmail.com" required>
             <br>
             <br>
             <label for ="password">Password:</label>
             <br>
             <br>
-            <input name = password placeholder="kmkji4566">
+            <input name = password placeholder="kmkji4566" required>
             <br>
             <br>
             <label for></label>
-            <br>
-            <br>
-            <input type="checkbox">I've Read And Agree With <b>The Term Of Service </b>And Our<b> Privacy Policy</b>
-            <br>
-            <br>
-            <button type ="Sign In">Sign In</button>
-<br>
-<br>
-<img src="https://icons.iconarchive.com/icons/pictogrammers/material/128/google-icon.png" alt="Google"> 
-<img src="https://icons.iconarchive.com/icons/arturo-wibawa/akar/128/facebook-icon.png"alt ="facebook">
-
-
+            <div>
+                <input  id = "checkbox" required type="checkbox"> I've Read And Agree With <b>The Terms Of Service</b> And Our <b>Privacy <br>Policy</b>
+              </div>
+              <a href="tables.html">
+            <button type ="Sign In" class="sign">Sign In</button>
+        </a>
+            <div class="line-container">
+                <hr class="line">
+                <span class="text">Or Sign In With</span>
+                <hr class="line">
+              </div>
+<div class="icons">
+<img src="media/google.png" alt="Google"> 
+<img src="media/facebook.png" alt ="facebook" >
+</div>
     </form>
     
 </body>
